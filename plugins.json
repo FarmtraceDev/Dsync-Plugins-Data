@@ -3,9 +3,9 @@
         "name": "Relay Manager",
         "description": "The ZKTeco plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
         "icon": {
-            "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/dd71ed5a-fe62-4a89-8b55-35c4899c4e9f",
-            "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/cdce51f4-ed3b-4b3b-8d2b-7b03969deb67",
-            "large": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/e7bcdef5-11a7-4c5e-b5cc-78a57f33df74"
+            "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/a086b7ee-2b0d-43d5-8d19-963053bec6b3",
+            "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/34ea0077-bc47-42a9-969f-43f0b6093926",
+            "large": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/c13a411b-06fc-44b2-b81e-dc864cdeedbf"
         },
         "moduleName": "relaycontroller",
         "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md"

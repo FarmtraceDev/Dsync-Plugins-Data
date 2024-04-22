@@ -1,7 +1,7 @@
 [
     {
         "name": "Relay Manager",
-        "description": "The ZKTeco plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
+        "description": "The Relay Manager plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
         "icon": {
             "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/a086b7ee-2b0d-43d5-8d19-963053bec6b3",
             "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/34ea0077-bc47-42a9-969f-43f0b6093926",

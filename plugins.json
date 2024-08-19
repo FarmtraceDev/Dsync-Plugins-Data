@@ -19,7 +19,8 @@
             "large": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ee0eaf41-78fd-4313-8b14-e3c44dca35d9"
         },
         "moduleName": "face_id",
-        "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md"
+        "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md",
+        "hasSettings": true
     }
 ]
 

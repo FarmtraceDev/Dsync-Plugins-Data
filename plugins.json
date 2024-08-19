@@ -22,6 +22,8 @@
         },
         "moduleName": "face_id",
         "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md",
-        "hasSettings": true
+        "settings": {
+            "className": "com.farmtrace.dsync.facialrecognition.ui.settings.SettingsActivity"
+        }
     }
 ]

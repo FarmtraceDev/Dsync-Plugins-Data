@@ -1,33 +1,54 @@
 [
-   {
-      "name":"Relay Manager",
-      "moduleName":"relaycontroller",
-      "className":"com.example.relay_controller.RelayManager",
-      "description":"The Relay Manager plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
-      "version":"0.0.1",
-      "releaseDate":"1st April 2024",
-      "icon":{
-         "small":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/a086b7ee-2b0d-43d5-8d19-963053bec6b3",
-         "medium":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/34ea0077-bc47-42a9-969f-43f0b6093926",
-         "large":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/c13a411b-06fc-44b2-b81e-dc864cdeedbf"
-      },
-      "docUrl":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md"
-   },
-   {
-      "name":"Facial Recognition",
-      "moduleName":"facialRecognition",
-      "className":"com.farmtrace.dsync.facialrecognition.FaceManager",
-      "description":"The Facial Recognition plugin allows you to use your current staff data to allow user authentication, and upon successful authentication handle actions for you.",
-      "version":"0.0.1",
-      "releaseDate":"30th August 2024",
-      "icon":{
-         "small":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/492b0448-019c-45b9-bfff-0436e7155711",
-         "medium":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ac13fd7e-ba77-4c24-93f5-fe2e029c2d85",
-         "large":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ee0eaf41-78fd-4313-8b14-e3c44dca35d9"
-      },
-      "docUrl":"https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md",
-      "settings":{
-         "className":"com.farmtrace.dsync.facialrecognition.ui.settings.SettingsActivity"
+  {
+    "name": "Relay Manager",
+    "moduleName": "relaycontroller",
+    "className": "com.example.relay_controller.RelayManager",
+    "description": "The Relay Manager plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
+    "version": "0.0.1",
+    "releaseDate": "1st April 2024",
+    "icon": {
+      "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/a086b7ee-2b0d-43d5-8d19-963053bec6b3",
+      "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/34ea0077-bc47-42a9-969f-43f0b6093926",
+      "large": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/c13a411b-06fc-44b2-b81e-dc864cdeedbf"
+    },
+    "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/ZKTecoAccessControl.md"
+  },
+  {
+    "name": "Facial Recognition",
+    "moduleName": "facialRecognition",
+    "className": "com.farmtrace.dsync.facialrecognition.FaceManager",
+    "description": "The Facial Recognition plugin allows you to use your current staff data to allow user authentication, and upon successful authentication handle actions for you.",
+    "version": "0.0.1",
+    "releaseDate": "30th August 2024",
+    "icon": {
+      "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/492b0448-019c-45b9-bfff-0436e7155711",
+      "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ac13fd7e-ba77-4c24-93f5-fe2e029c2d85",
+      "large": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ee0eaf41-78fd-4313-8b14-e3c44dca35d9"
+    },
+    "docUrl": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/blob/main/docs/FacialRecognition.md",
+    "settings": {
+      "className": "com.farmtrace.dsync.facialrecognition.ui.settings.SettingsActivity"
+    },
+    "requirements": {
+      "hardware": {
+        "ram": {
+          "minimumGB": 2,
+          "recommendedGB": 4
+        },
+        "storage": {
+          "minimumGB": 10,
+          "recommendedGB": 20
+        },
+        "cpu": {
+          "minimumCores": 2,
+          "recommendedCores": 4
+        },
+        "camera": {
+          "required": true,
+          "autofocus": true
+        },
+        "neonSupport": true
       }
-   }
+    }
+  }
 ]

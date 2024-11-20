@@ -32,7 +32,7 @@
     "requirements": {
       "hardware": {
         "ram": {
-          "minimumGB": 4,
+          "minimumGB": 2,
           "recommendedGB": 4
         },
         "storage": {
@@ -40,7 +40,7 @@
           "recommendedGB": 20
         },
         "cpu": {
-          "minimumCores": 4,
+          "minimumCores": 2,
           "recommendedCores": 4
         },
         "camera": {
@@ -49,7 +49,7 @@
           "facing": "front",
           "autofocus": false
         },
-        "neonSupport": true
+        "neonSupport": false
       }
     }
   }

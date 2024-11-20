@@ -47,9 +47,9 @@
           "required": true,
           "resolution": "480p",
           "facing": "front",
-          "autofocus": true
+          "autofocus": false
         },
-        "neonSupport": true
+        "neonSupport": false
       }
     }
   }

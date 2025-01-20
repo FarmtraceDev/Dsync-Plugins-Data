@@ -5,6 +5,7 @@
     "className": "com.example.relay_controller.RelayManager",
     "description": "The Relay Manager plugin empowers you to utilize Dsync for user authentication and, upon successful authentication, grants access to open doors.",
     "version": "0.0.1",
+    "minimumAppVersion": "5.0.0",
     "releaseDate": "1st April 2024",
     "icon": {
       "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/a086b7ee-2b0d-43d5-8d19-963053bec6b3",
@@ -20,6 +21,7 @@
     "description": "The Facial Recognition plugin allows you to use your current staff data to allow user authentication, and upon successful authentication handle actions for you.",
     "version": "0.0.1",
     "releaseDate": "30th August 2024",
+    "minimumAppVersion": "5.1.0",
     "icon": {
       "small": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/492b0448-019c-45b9-bfff-0436e7155711",
       "medium": "https://github.com/FarmtraceDev/Dsync-Plugins-Data/assets/132669484/ac13fd7e-ba77-4c24-93f5-fe2e029c2d85",
